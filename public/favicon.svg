@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <linearGradient id="giftGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FFA500;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8C00;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="ribbonGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#DC143C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B22222;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="32" height="32" fill="#1a1a1a" rx="4"/>
+  
+  <!-- Подарочная коробка -->
+  <rect x="6" y="12" width="20" height="16" fill="url(#giftGradient)" rx="2"/>
+  
+  <!-- Лента сверху -->
+  <rect x="6" y="18" width="20" height="4" fill="url(#ribbonGradient)"/>
+  
+  <!-- Лента сбоку -->
+  <rect x="14" y="12" width="4" height="16" fill="url(#ribbonGradient)"/>
+  
+  <!-- Бант -->
+  <circle cx="16" cy="20" r="3" fill="url(#ribbonGradient)"/>
+  <circle cx="16" cy="20" r="1.5" fill="#FFD700"/>
+  
+  <!-- Блестки -->
+  <circle cx="10" cy="8" r="1" fill="#FFD700" opacity="0.8"/>
+  <circle cx="22" cy="6" r="0.8" fill="#FFD700" opacity="0.6"/>
+  <circle cx="8" cy="26" r="0.6" fill="#FFD700" opacity="0.7"/>
+  <circle cx="24" cy="24" r="0.7" fill="#FFD700" opacity="0.5"/>
+</svg>

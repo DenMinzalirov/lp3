@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Apuesta Casino",
+  "name": "Apuesta Casino - Willkommenspaket bis zu 1.500 € + 250 Freispiele",
+  "description": "Registrieren Sie sich jetzt und erhalten Sie bis zu 1.500 € Bonus + 250 Freispiele + Cashback bis zu 25%. Sichere Zahlungsmethoden und 24/7 Support!",
   "icons": [
     {
       "src": "favicon.ico",
@@ -10,16 +11,30 @@
     {
       "src": "logo192.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose": "any maskable"
     },
     {
       "src": "logo512.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#1a1a1a",
+  "background_color": "#0f0f0f",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "de",
+  "categories": ["entertainment", "games", "casino"],
+  "screenshots": [
+    {
+      "src": "assets/gift.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ]
 }
